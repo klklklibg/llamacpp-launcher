@@ -1,3 +1,5 @@
+> **已合并到 [P100 LLM Toolkit](https://github.com/klklklibg/p100-llm-toolkit)** — 本仓库保留作为历史存档，后续更新在 monorepo 的 `launcher/` 目录。
+
 # llama.cpp 多后端启动器（P100 实测调优）
 
 [English](README.en.md)
