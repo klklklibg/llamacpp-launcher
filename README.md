@@ -1,5 +1,7 @@
 # llama.cpp 多后端启动器（P100 实测调优）
 
+[English](README.en.md)
+
 一个零第三方依赖（仅 Python 标准库 + Tk）的本地 `llama-server` 启动器。面向多后端共存、需要按模型架构自动选最优后端、并且关心实测吞吐的场景（本机为 Tesla P100 16GB + Ryzen 5 1600X）。
 
 ## 功能
