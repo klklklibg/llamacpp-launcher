@@ -1,0 +1,20 @@
+# 本机私密配置（实测路径、模型位置）
+paths.local.json
+config.json
+models.cache.json
+bench_matrix.log
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 测试数据与产物
+mtp_logs/
+*.json.bak
+
+# 系统
+.DS_Store
+Thumbs.db

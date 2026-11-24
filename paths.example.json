@@ -1,0 +1,36 @@
+{
+  "_comment": "复制为 paths.local.json 并改成你自己的路径。该文件已 gitignore。role 用于自动后端路由：p100/inkling/pascal/pxa。",
+
+  "backend_path": "C:/llama.cpp/bin",
+  "model_roots": [
+    "C:/models",
+    "C:/lmstudio"
+  ],
+
+  "backends": [
+    {
+      "path": "C:/llama-p100/build-cuda/bin",
+      "label": "P100 fork (Kmic)",
+      "role": "p100"
+    },
+    {
+      "path": "C:/llama-upstream/build-cuda/bin",
+      "label": "upstream master (Inkling2)",
+      "role": "inkling"
+    },
+    {
+      "path": "C:/llama.cpp/bin",
+      "label": "Pascal optimized",
+      "role": "pascal"
+    },
+    {
+      "path": "C:/pxa/engine/bin",
+      "label": "PXA 4.0 (PXQN)",
+      "role": "pxa"
+    }
+  ],
+
+  "mmproj_hints": [
+    "C:/models/vision"
+  ]
+}
